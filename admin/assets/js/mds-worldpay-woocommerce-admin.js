@@ -1,5 +1,6 @@
 (function ($) {
     'use strict';
+    if (!$('#woocommerce_business_worldpay_api_md5_fields').length ) { return; }
 
     var $select2 = $('#woocommerce_business_worldpay_api_md5_fields').select2();
 
